@@ -1,0 +1,19 @@
+Create class Car:
+# Id (String) [i.e. 55-235-22]
+# Brand (String) [i.e. Mitsubishi]
+# Model (String) [i.e. Outlander]
+# Creation (LocalDateTime) [i.e. 2015-12-31 16:32:11]
+# Color (String)
+# Seats (Integer)
+
+Implement Comparable<Car> by Id
+Create CarSortByBrandAndModel Comparator<Car> -- which sorts by brand and if brand equal then by model 
+Create CarSortByBrandCreation Comparator<Car> 
+Create CarSortByColor Comparator<Car> 
+Create CarSortBySeats Comparator<Car> 
+
+Create ArrayList of cars
+Sort using each type and print after EACH sort 
+
+
+
